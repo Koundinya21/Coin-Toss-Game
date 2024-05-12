@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.background {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.heading-container {
+  padding-top: 18px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 450;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.para {
+  color: black;
+  font-weight: 'Roboto';
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.img-coin {
+  width: 230px;
+  height: 230px;
+}
+.btn {
+  width: 80px;
+  height: 40px;
+  padding: 7px;
+  background-color: #f9d423;
+  border-radius: 5px;
+  border-width: 0px;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #a35200;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
